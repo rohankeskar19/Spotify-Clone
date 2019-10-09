@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+
+#background {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+
+#loginContainer h1, h2, h3, h4, h5, h6, p {
+    color : #fff;
+    font-weight: normal;
+    line-height: 1em;
+
+}
+
+#loginContainer {
+    width : 80%;
+    margin : 0 auto;
+    position: relative;
+    max-width: 1024px;
+}
+
+#inputContainer {
+    width : 400px;
+    padding : 45px;
+    float: left;
+    
+}
+
+#inputContainer h2 {
+    text-align: center;
+}
+
+#inputContainer input {
+    font-family: 'Nunito', sans-serif;
+    display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    outline: 0.1px;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+    caret-color: #1DB954;
+    color: white;
+    transition: all .5s;
+}
+
+#inputContainer input:focus {
+    border-bottom: 1px solid #1DB954;
+}
+
+#inputContainer button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.hasAccountText p {
+    color: #fff;
+    display: block;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.hasAccountText p:hover {
+    color: #1DB954;
+}
+
+#registerForm, #loginForm {
+    display: none;
+}
+
+.errorMessage {
+    color: #1DB954;
+    font-size: 10px;
+}
+
+#loginText {
+    padding: 45px;
+    display: table-cell;
+}
+
+.greenHeading {
+    color: #1DB954 !important;
+    font-size: 50px;
+}
+
+#loginText h2 {
+    margin: 35px 0;
+}
+
+#loginText ul {
+    padding: 0 5px;
+}
+
+#loginText ul li{
+    color: white;
+    transition: all .2s;
+    list-style: none;
+}
+
+#loginText ul li:hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icon {
+    color: #1DB954;
+}
